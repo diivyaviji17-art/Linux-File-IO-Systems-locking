@@ -19,7 +19,8 @@ Execute the C Program for the desired output.
 
 # PROGRAM:
 
-## 1.To Write a C program that illustrates files copying 
+## 1.To Write a C program that illustrates files copying
+```
 #include <stdio.h>
 #include <fcntl.h>
 #include <unistd.h>
@@ -65,13 +66,14 @@ int main(int argc, char *argv[]) {
 
     return 0;
 }
-
+```
 
 
 
 
 
 ## 2.To Write a C program that illustrates files locking
+```
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -115,7 +117,7 @@ int main() {
 
     return 0;
 }
-
+```
 
 
 ## OUTPUT
